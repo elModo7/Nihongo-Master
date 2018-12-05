@@ -1,35 +1,9 @@
-﻿SetWorkingDir %A_ScriptDir%
-FileCreateDir, %A_Temp%\res\snd\
-FileCreateDir, %A_Temp%\res\img\
-FileInstall, res\snd\Correct.wav, %A_Temp%\res\snd\Correct.wav,0
-FileInstall, res\snd\End.wav, %A_Temp%\res\snd\End.wav,0
-FileInstall, res\snd\Wrong.wav, %A_Temp%\res\snd\Wrong.wav,0
-FileInstall, res\img\Completar.png, %A_Temp%\res\img\Completar.png,0
-FileInstall, res\img\corazon.png, %A_Temp%\res\img\corazon.png,0
-FileInstall, res\img\GoButton.png, %A_Temp%\res\img\GoButton.png,0
-FileInstall, res\img\Hiragana.png, %A_Temp%\res\img\Hiragana.png,0
-FileInstall, res\img\HiraganaCompletar.png, %A_Temp%\res\img\HiraganaCompletar.png,0
-FileInstall, res\img\HiraganaMenu.png, %A_Temp%\res\img\HiraganaMenu.png,0
-FileInstall, res\img\HiraganaSeleccionar.png, %A_Temp%\res\img\HiraganaSeleccionar.png,0
-FileInstall, res\img\Katakana.png, %A_Temp%\res\img\Katakana.png,0
-FileInstall, res\img\KatakanaMenu.png, %A_Temp%\res\img\KatakanaMenu.png,0
-FileInstall, res\img\MainMenu.png, %A_Temp%\res\img\MainMenu.png,0
-FileInstall, res\img\MegaMix.png, %A_Temp%\res\img\MegaMix.png,0
-FileInstall, res\img\MegaMixMenu.png, %A_Temp%\res\img\MegaMixMenu.png,0
-FileInstall, res\img\No.png, %A_Temp%\res\img\No.png,0
-FileInstall, res\img\Palabras.png, %A_Temp%\res\img\Palabras.png,0
-FileInstall, res\img\Record.png, %A_Temp%\res\img\Record.png,0
-FileInstall, res\img\Salir.png, %A_Temp%\res\img\Salir.png,0
-FileInstall, res\img\Seleccionar.png, %A_Temp%\res\img\Seleccionar.png,0
-FileInstall, res\img\Si.png, %A_Temp%\res\img\Si.png,0
-FileInstall, res\img\Volver.png, %A_Temp%\res\img\Volver.png,0
-FileInstall, res\img\Intro.png, %A_Temp%\res\img\Intro.png,0
-obf_dumpcommonobjfrags()
+﻿obf_dumpcommonobjfrags()
 @k%f@k@f@%kkk#f@%fkff@k%kk#fkk()
 k@k@k@%@k#fkf%@fff#kkk()
 %#k#kk@@f%%fk#ff##fk##kf#%%#kkkkf%()
 #SingleInstance Force
-
+SetWorkingDir %A_ScriptDir%
 f@@ff@#kk#kkk@kfkfk##k@f@k#k:
 @%kff@#kkkf@f##k%f@%#ffk@kk@%%k@kfkk@k%#kfk@k := Object()
 @kf@%@k@kf@@k#ffff#k@#kf##f%kfk%@k@f%@k.Insert("ã¤")
@@ -1024,7 +998,31 @@ f%kkkfff%#%@f#f@f@k#f#kf#k@@f%@%k@f#kkkkf#k@#fk#%f.Insert("neko")
 k%f#kfk@fffk@kffk#k#%#%kf#f@kkf#k#fkfkk@ffffk#f%k%@fk@f#%f.Insert("ã†ã—")
 %k#fkffff%%f#k#f@%%kf@k%.Insert("ushi")
 @%#kf##kf#@fkkkkkfk@#kkf%#%f#@fkkf#%k#%k@#kkkf@kff#@fk##f@k#k%f#%ffk#f@kf%kf@f.Insert("Vaca")
-
+FileCreateDir, %A_Temp%\res\snd\
+FileCreateDir, %A_Temp%\res\img\
+FileInstall, res\snd\Correct.wav, %A_Temp%\res\snd\Correct.wav,0
+FileInstall, res\snd\End.wav, %A_Temp%\res\snd\End.wav,0
+FileInstall, res\snd\Wrong.wav, %A_Temp%\res\snd\Wrong.wav,0
+FileInstall, res\img\Completar.png, %A_Temp%\res\img\Completar.png,0
+FileInstall, res\img\corazon.png, %A_Temp%\res\img\corazon.png,0
+FileInstall, res\img\GoButton.png, %A_Temp%\res\img\GoButton.png,0
+FileInstall, res\img\Hiragana.png, %A_Temp%\res\img\Hiragana.png,0
+FileInstall, res\img\HiraganaCompletar.png, %A_Temp%\res\img\HiraganaCompletar.png,0
+FileInstall, res\img\HiraganaMenu.png, %A_Temp%\res\img\HiraganaMenu.png,0
+FileInstall, res\img\HiraganaSeleccionar.png, %A_Temp%\res\img\HiraganaSeleccionar.png,0
+FileInstall, res\img\Katakana.png, %A_Temp%\res\img\Katakana.png,0
+FileInstall, res\img\KatakanaMenu.png, %A_Temp%\res\img\KatakanaMenu.png,0
+FileInstall, res\img\MainMenu.png, %A_Temp%\res\img\MainMenu.png,0
+FileInstall, res\img\MegaMix.png, %A_Temp%\res\img\MegaMix.png,0
+FileInstall, res\img\MegaMixMenu.png, %A_Temp%\res\img\MegaMixMenu.png,0
+FileInstall, res\img\No.png, %A_Temp%\res\img\No.png,0
+FileInstall, res\img\Palabras.png, %A_Temp%\res\img\Palabras.png,0
+FileInstall, res\img\Record.png, %A_Temp%\res\img\Record.png,0
+FileInstall, res\img\Salir.png, %A_Temp%\res\img\Salir.png,0
+FileInstall, res\img\Seleccionar.png, %A_Temp%\res\img\Seleccionar.png,0
+FileInstall, res\img\Si.png, %A_Temp%\res\img\Si.png,0
+FileInstall, res\img\Volver.png, %A_Temp%\res\img\Volver.png,0
+FileInstall, res\img\Intro.png, %A_Temp%\res\img\Intro.png,0
 Gui, Name: New,, Opening
 Gui Opening: -Caption
 Gui Opening: Add, Picture, x0 y0 w480 h640, %A_Temp%\res\img\Intro.png
